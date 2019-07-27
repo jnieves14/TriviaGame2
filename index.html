@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html land="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trivia Game!</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="mainPage">
+            <h1 class="heading">Cities of the World Trivia Game</h1>
+            <p class="btn btn-lg btn-primary" id="start">Start Game</p>
+            <div class="col-xs-4">
+                <p id="countdown">Time Remaining:<span id="timer"></span></p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="questionBlock">
+            <p class="question">1. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+            </form>
+
+            <p class="question">2. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+            </form><br>
+
+            <p class="question">3. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+            </form><br>
+
+            <p class="question">4. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+            </form><br>
+
+            <p class="question">5. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+            </form><br>
+
+            <p class="question">6. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+            </form><br>
+
+            <p class="questionion">7. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+            </form><br>
+
+            <p class="question">8. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+            </form><br>
+
+            <p class="question">9. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+            </form><br>
+
+            <p class="question">10. ?</p>
+            <form class="choices">
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="correct"> ANSWER
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+                <label class="form-check form-check-inline text-mysize">
+                    <input type="radio" name="optradio" class="optradio" value="wrong"> CHOICE
+                </label>
+            </form>
+
+        <div>
+            <p class="btn btn-lg btn-danger" id="gameFinished">Done</p>
+        </div>
+    </div>
+
+    <div class="results">
+        <p class="end" id="summary">Scoreboard</p>
+        <p class="end" id="correctCount">Correct Answers: </p>
+        <p class="end" id="wrongCount"></p>
+        <p class="end" id="unansweredCount"></p>
+    </div>
+
+</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js""></script>
+</body>
+</html>
