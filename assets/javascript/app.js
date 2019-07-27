@@ -55,10 +55,10 @@ $(document).ready(function() {
         // function to display summary of game
         function displaySummary(){
             $('.results').show();
-            unansweredCount = (8-(correctCount+wrongCount));
+            unansweredCount = (10-(correctCount+wrongCount));
             $('#correctCount').text("Correct Answers:" + " " + correctCount); 
             $('#wrongCount').text("Wrong Answers:" + " " + wrongCount); 
-            $('#unasnweredCount').text("Unanswered:" + " " + unansweredCount); 
+            $('#unansweredCount').text("Unanswered:" + " " + unansweredCount); 
         }
     
     // CLICK EVENTS
@@ -81,7 +81,7 @@ $(document).ready(function() {
         $('input[type=radio]').on ('change', function(){
         correctCount = $('input[value=correct]:checked').length;
         wrongCount = $('input[value=wrong]:checked').length;
-        unansweredCount = (8-(correctCount+wrongCount));
+        unansweredCount = (10-(correctCount+wrongCount));
         });
     
     // Last closing bracket
