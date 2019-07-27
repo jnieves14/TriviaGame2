@@ -1,18 +1,20 @@
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
     color: black;
     text-align: center;
-    font-family:'Righteous', cursive;
+    font-family: 'Special Elite', cursive;
 }
 
-#start,
-.btn {
-    text-align: center;
-}
 
 .header{
-    margin-top: 40px;
+    margin-top: 70px;
     font-size: 80px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container-fluid {
+    /* background-color: rgba(255, 255, 255, 0.7); */
 }
 
 #start{

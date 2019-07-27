@@ -4,6 +4,7 @@ $(document).ready(function() {
         $('#countdown').hide();
         $('.questionBlock').hide();
         $('.results').hide();
+        
     
         // Declare Variables
         var number = 70; //number of seconds
@@ -77,12 +78,15 @@ $(document).ready(function() {
             displaySummary();
         });
     
-        //Clicking Radio button
-        $('input[type=radio]').on ('change', function(){
-        correctCount = $('input[value=correct]:checked').length;
-        wrongCount = $('input[value=wrong]:checked').length;
-        unansweredCount = (10-(correctCount+wrongCount));
+
+        $("#reset").on("click", function() {
+            $('#start').hide();
+            $('.results').hide();
+            showQuestions();
+            number = 70;
+
         });
-    
+
+        
     // Last closing bracket
     });
