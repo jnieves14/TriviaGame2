@@ -1,6 +1,6 @@
 body {
-    background-image: url("../images/background.jpeg");
-    background-size: cover;
+    background-image: url("../images/background.png");
+    background-size: 100%;
     color: black;
     text-align: center;
     font-family: 'Special Elite', cursive;
@@ -45,9 +45,9 @@ body {
     color: black;
 }
 
-.quest {
+.question {
     font-size: 26px;
-    color: wheat;
+    color: black;
 }
 
 .text-mysize {
