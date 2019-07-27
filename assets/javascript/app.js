@@ -1,19 +1,19 @@
 $(document).ready(function() {
-    // when the page is loaded first, the timer, questions and summary must be hidden.
+    //At first, the timer, questions and summary must be hidden.
     
     $('#countdown').hide();
     $('.questionBlock').hide();
     $('.results').hide();
         
     
-    // global variables
+    //GLOBAL VARIABLES
     var number = 70; //timer
     var intervalId;
     var correctCount = 0;
     var wrongCount = 0;
     var unansweredCount = 0;
 
-    //ALL FUNCTIONS
+    //FUNCTIONS
     
     // function to show questions
     function showQuestions(){
@@ -63,7 +63,7 @@ $(document).ready(function() {
         $('#reset').show();
     }
     
-    // CLICK EVENTS
+    // ON CLICK EVENTS
     
     //Clicking Start Button
     $('#start').on('click', function(){
@@ -86,7 +86,7 @@ $(document).ready(function() {
         unansweredCount = (10-(correctCount+wrongCount));
     });
     
-    //reset button resets the game
+    //play again button resets the game
     $("#reset").on("click", function() {
         $('#start').hide();
         $('.results').hide();
