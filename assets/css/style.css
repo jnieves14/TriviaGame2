@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/background.jpg");
+    color: black;
+    text-align: center;
+    font-family:'Righteous', cursive;
+}
+
+#start,
+.btn {
+    text-align: center;
+}
+
+.header{
+    margin-top: 40px;
+    font-size: 80px;
+}
+
+#start{
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+#countdown {
+    font-size: 26px;
+    color:rgb(201, 12, 12);
+}
+
+#gameFinished {
+    font-size: 40px;
+}
+
+.end {
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.quest {
+    font-size: 26px;
+    color: wheat;
+}
+
+.text-mysize {
+    font-size: 20px;
+}
+ 
