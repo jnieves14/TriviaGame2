@@ -1,6 +1,8 @@
 body {
     background-image: url("../images/background.png");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: black;
     text-align: center;
     font-family: 'Special Elite', cursive;
